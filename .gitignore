@@ -1,1 +1,17 @@
-/node_modules
+# Ignore compiled JavaScript files
+*.js
+*.js.map
+
+# Ignore TypeScript declaration files
+*.d.ts
+
+# Ignore output directories (e.g., dist or build)
+dist/
+build/
+
+# Ignore node_modules
+node_modules/
+
+# Ignore logs and temporary system files
+*.log
+.DS_Store
